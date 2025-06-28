@@ -5,15 +5,13 @@
 
 ---
 
-## 🔥 Projets en vedette :
-### [🛠️ XCLIP](https://github.com/sam69100/XCLIP)
-Un projet pour la gestion efficace des clips.
-![XCLIP](https://via.placeholder.com/800x400?text=Image+du+projet)
+## 🔥 Projets en cours :
+
 
 ---
 
 ### [📜 Cheatsheets](https://github.com/sam69100/Cheatsheets)
-Mes astuces et commandes préférées pour les outils DevOps.
+commandes :
 ![Cheatsheets](https://via.placeholder.com/800x400?text=Image+des+cheatsheets)
 
 ---
@@ -24,6 +22,6 @@ Mes astuces et commandes préférées pour les outils DevOps.
 ---
 
 🔗 **Liens utiles :**
-- [Mon LinkedIn](https://linkedin.com/in/sam69100)
-- [Mon site web](https://monportfolio.com)
+- [Mon LinkedIn](https://)
+- [Mon site web](https://)
 
