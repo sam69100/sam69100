@@ -20,7 +20,7 @@
 
 
 
-![Compteur de Visiteurs](https://profile-counter.glitch.me/sam69100/count.svg)
+Nombre de visites : ![Compteur de Visiteurs](https://profile-counter.glitch.me/sam69100/count.svg)
 
 
 ---
