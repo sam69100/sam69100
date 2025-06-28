@@ -10,7 +10,7 @@
 
 ---
 
-### [📜 Cheatsheets](https://github.com/sam69100/Cheatsheets)
+### [📜 Cheatsheets](https://github.com/sam69100/Cheatsheets) 
 commandes :
 ![Cheatsheets](https://via.placeholder.com/800x400?text=Image+des+cheatsheets)
 
