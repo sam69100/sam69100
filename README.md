@@ -19,7 +19,9 @@
 ![Mes stats GitHub](https://github-readme-stats.vercel.app/api?username=sam69100&show_icons=true&theme=radical)
 
 
-![Visiteurs](https://visitor-badge.glitch.me/badge?page_id=sam69100.RB)
+<img src="https://profile-counter.glitch.me/sam69100/count.svg" data-canonical-src="https://profile-counter.glitch.me/sam69100/count.svg" style="max-width: 100%;">
+![Compteur de Visiteurs](https://profile-counter.glitch.me/sam69100/count.svg)
+
 
 ---
 
