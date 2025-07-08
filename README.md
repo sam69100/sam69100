@@ -21,9 +21,7 @@
 
 
 Nombre de visites : 
-
-![Compteur de Visiteurs](https://profile-counter.glitch.me/sam69100/count.svg)
-
+![](https://komarev.com/ghpvc/?username=sam69100&color=blue)
 
 ---
 
