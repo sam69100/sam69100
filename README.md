@@ -6,7 +6,7 @@
 ---
 
 ## 🔥 Projets en cours :
-
+- Never give up !
 
 ---
 
