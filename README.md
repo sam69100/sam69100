@@ -1,7 +1,7 @@
 <div align="center">
 
-# <img width="148" height="148" alt="image" src="https://github.com/user-attachments/assets/4838bdc1-b18e-48a1-9305-980d2d66e719" />
- sam69100
+<img width="148" height="148" alt="image" src="https://github.com/user-attachments/assets/4838bdc1-b18e-48a1-9305-980d2d66e719" />
+ # sam69100
 
 🔐 Passionné par la **cybersécurité**, le **développement** et les outils innovants.
 
@@ -33,8 +33,8 @@
 
 ## 📊 Statistiques GitHub
 
-![Stats](https://github-readme-stats.vercel.app/api?username=sam69100&show_icons=true&theme=radical&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sam69100&layout=compact&theme=radical&hide_border=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=sam69100&show_icons=true&theme=radical&hide_border=true&cache_seconds=1800)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sam69100&layout=compact&theme=radical&hide_border=true&cache_seconds=1800)
 
 ---
 
