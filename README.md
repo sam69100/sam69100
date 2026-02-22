@@ -16,7 +16,8 @@ ________________________________________________________________________________
 
 <p align="center">
   <a href="https://x.com/i/status/2025345595846570000">
-    <img src="THUMBNAIL.png" alt="Watch the video" width="600"/>
+    <img src="<img width="468" height="466" alt="image" src="https://github.com/user-attachments/assets/e452e5fb-f988-412b-b1d5-8d1bec8c9690" />
+" alt="Watch the video" width="600"/>
   </a>
 </p>
 ______________________________________________________________________________________________________
