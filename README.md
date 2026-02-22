@@ -31,7 +31,7 @@
 
 ## 📊 Statistiques GitHub
 
-![Stats](https://github-readme-stats.vercel.app/api?username=sam69100&show_icons=true&theme=radical&hide_border=true&cache_seconds=1800)
+![Stats](https://streak-stats.demolab.com?user=sam69100&theme=radical&hide_border=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sam69100&layout=compact&theme=radical&hide_border=true&cache_seconds=1800)
 
 ---
