@@ -14,7 +14,11 @@ ________________________________________________________________________________
 <img width="456" height="679" alt="image" src="https://github.com/user-attachments/assets/6b188053-909e-449c-81b2-1efb8e93ee79" />
 </div>
 
-https://x.com/i/status/2025345595846570000
+<p align="center">
+  <a href="https://x.com/i/status/2025345595846570000">
+    <img src="THUMBNAIL.png" alt="Watch the video" width="600"/>
+  </a>
+</p>
 ______________________________________________________________________________________________________
 
 ### [📜 Cheatsheets](https://github.com/sam69100/Cheatsheets) 
