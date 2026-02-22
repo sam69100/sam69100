@@ -3,7 +3,7 @@
 
 🌟 Je suis passionné par la cybersécurité, le développement, et les outils innovants.
 
----
+______________________________________________________________________________________________________
 
 ## 🔥 Projets en cours :
 
@@ -13,7 +13,7 @@
 <br>
 <img width="456" height="679" alt="image" src="https://github.com/user-attachments/assets/6b188053-909e-449c-81b2-1efb8e93ee79" />
 </div>
----
+______________________________________________________________________________________________________
 
 ### [📜 Cheatsheets](https://github.com/sam69100/Cheatsheets) 
 
