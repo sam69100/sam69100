@@ -15,11 +15,9 @@
 
 ### PRAY FOR THE LEFT
 
-<a href="https://x.com/i/status/2025345595846570000">
-  <img width="400" alt="PRAY FOR THE LEFT" src="https://github.com/user-attachments/assets/6b188053-909e-449c-81b2-1efb8e93ee79" />
-</a>
 
-> *Clique sur l'image pour voir la vidéo*
+  <img width="400" alt="PRAY FOR THE LEFT" src="https://github.com/user-attachments/assets/6b188053-909e-449c-81b2-1efb8e93ee79" />
+
 
 ---
 
