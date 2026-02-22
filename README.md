@@ -7,7 +7,8 @@
 
 ## 🔥 Projets en cours :
 
-Pray for the left.
+<center><br>Pray for the left.</b></center>
+<br>
 <img width="456" height="679" alt="image" src="https://github.com/user-attachments/assets/6b188053-909e-449c-81b2-1efb8e93ee79" />
 
 ---
