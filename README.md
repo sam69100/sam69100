@@ -10,7 +10,7 @@
 
 ---
 
-## 🔥 Projet phare
+## 🔥 Projets en cours :
 
 ### PRAY FOR THE LEFT
 
