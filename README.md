@@ -17,7 +17,7 @@
 
 
 ---
-</div>
+
 
 ### [📜 Cheatsheets](https://github.com/sam69100/Cheatsheets) 
 
@@ -31,6 +31,8 @@
 
 Nombre de visites : 
 ![](https://komarev.com/ghpvc/?username=sam69100&color=blue)
+
+</div>
 
 ---
 
