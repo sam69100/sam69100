@@ -16,7 +16,7 @@
 ## 🌐 Socials
 
 [![X](https://img.shields.io/badge/@XerosXmx14404-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/XerosXmx14404)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:TONEMAIL@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sam69387475@yahoo.com)
 
 ---
 
