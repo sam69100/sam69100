@@ -73,11 +73,11 @@
 
 ---
 # 🚀 Awesome TryHackMe
+<img width="439" height="247" alt="image" src="https://github.com/user-attachments/assets/e6930e94-07f9-42b9-808d-f1c509bc21fb" />
 
 List of all tryhackme rooms sorted by popularity. Contains badges, points, average time.
 
-![Preview](assets/preview.jpg)
-
+---
 ## Content
 
 1. [📦 Rooms](#rooms)
