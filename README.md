@@ -1,12 +1,17 @@
 
 <div align="center">
 
-<img width="148" height="148" alt="image" src="https://github.com/user-attachments/assets/4838bdc1-b18e-48a1-9305-980d2d66e719" />
 <br>
-<h1>sam69100</h1><br>
+
+<img width="80" alt="cygne" src="https://github.com/user-attachments/assets/4838bdc1-b18e-48a1-9305-980d2d66e719" />
+
+<h2>sam69100</h2>
+
 <br>
 
 🔐 Passionné par la **cybersécurité**, le **développement** et les outils innovants.
+
+<br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sam69100.github.io/cybersecurity/)
@@ -78,4 +83,3 @@
 *Made with ❤️ by sam69100*
 
 </div>
-
