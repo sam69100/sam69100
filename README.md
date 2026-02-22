@@ -32,7 +32,7 @@
 ## 📊 Statistiques GitHub
 
 ![Stats](https://streak-stats.demolab.com?user=sam69100&theme=radical&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sam69100&layout=compact&theme=radical&hide_border=true&cache_seconds=1800)
+[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=sam69100&layout=compact&theme=radical&hide_border=true)](https://github.com/sam69100)
 
 ---
 
