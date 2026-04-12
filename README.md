@@ -1151,6 +1151,19 @@ List of all tryhackme rooms sorted by popularity. Contains badges, points, avera
 | [-] | [Burp Suite](https://tryhackme.com/module/learn-burp-suite) | No | + |
 | [-] | [Network Security and Traffic Analysis](https://tryhackme.com/module/network-security-and-traffic-analysis) | No | + |
 
+
+---
+# 🚀 Awesome Hack The Box
+
+<div align="center">
+  <img width="439" height="247" alt="HTB" src="https://cdn.tech.eu/uploads/2019/04/Hack-The-Box-logo.png" />
+</div>
+
+Liste complète des machines **Hack The Box** (Linux & Windows).  
+Contient les **techniques clés** et **liens directs**.
+
+---
+
 ## 🐧 Hack The Box - Machines Linux
 
 | Machine | Techniques clés |
