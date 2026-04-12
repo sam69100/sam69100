@@ -1151,6 +1151,517 @@ List of all tryhackme rooms sorted by popularity. Contains badges, points, avera
 | [-] | [Burp Suite](https://tryhackme.com/module/learn-burp-suite) | No | + |
 | [-] | [Network Security and Traffic Analysis](https://tryhackme.com/module/network-security-and-traffic-analysis) | No | + |
 
+## 🐧 Hack The Box - Machines Linux
+
+| Machine | Techniques clés |
+| --- | --- |
+| [**Snapped**](https://app.hackthebox.com/machines/Snapped) | nginx-ui, CVE-2026-27944 (OpenSSL), snapd, race condition, shared object, setuid |
+| [**Principal**](https://app.hackthebox.com/machines/Principal) | Spring Boot, pac4j, JWT, JWKS, SSH certificate auth, JWT RS256 forgery |
+| [**Browsed**](https://app.hackthebox.com/machines/Browsed) | Chrome extension, Gitea, SSRF, bash arithmetic injection, Python marshal |
+| [**Conversor**](https://app.hackthebox.com/machines/Conversor) | XSLT injection, CVE-2024-48990, needrestart exploit, setuid |
+| [**Gavel**](https://app.hackthebox.com/machines/Gavel) | PHP SQLi (PDO), runkit, tmp sandboxes, systemd private tmp, Unix socket |
+| [**Expressway**](https://app.hackthebox.com/machines/Expressway) | IKE VPN (aggressive mode), Cisco config, squid, chroot, nsswitch |
+| [**Barrier**](https://app.hackthebox.com/machines/Barrier) | Authentik SAML, Guacamole CVE-2024-45409, GitLab CI/CD, container escape |
+| [**Guardian**](https://app.hackthebox.com/machines/Guardian) | PhpSpreadsheet CVE-2025-22131, PHP filter injection, Vim, shared object |
+| [**Giveback**](https://app.hackthebox.com/machines/Giveback) | Kubernetes, WordPress GiveWP, PHP object injection, PHP-CGI RCE, runc CVE-2024-21626 |
+| [**soulmate**](https://app.hackthebox.com/machines/soulmate) | CrushFTP CVE-2025-31161/CVE-2025-54309, Erlang SSH, race condition |
+| [**Slonik**](https://app.hackthebox.com/machines/Slonik) | NFS, PostgreSQL RCE, yescrypt, pg_basebackup, Unix socket tunnel |
+| [**Bamboo**](https://app.hackthebox.com/machines/Bamboo) | PaperCut CVE-2023-27350, squid proxy, tcpdump |
+| [**CodeTwo**](https://app.hackthebox.com/machines/CodeTwo) | js2py sandbox escape CVE-2024-28397, npbackup, restic |
+| [**Imagery**](https://app.hackthebox.com/machines/Imagery) | ImageMagick, Flask cookies AES, command injection |
+| [**HackNet**](https://app.hackthebox.com/machines/HackNet) | Django pickle deserialization, SSTI, WSGI |
+| [**Previous**](https://app.hackthebox.com/machines/Previous) | Next.js CVE-2025-29927 (auth bypass), Terraform, symlink |
+| [**WhiteRabbit**](https://app.hackthebox.com/machines/WhiteRabbit) | Gophish, uptime-kuma, n8n, Wikijs, SQLi, restic, 7z2john |
+| [**Editor**](https://app.hackthebox.com/machines/Editor) | XWiki CVE-2025-24893 (Groovy SSTI), Netdata CVE-2024-32019, ndsudo |
+| [**Era**](https://app.hackthebox.com/machines/Era) | PHP SSH signature, Linux ELF binary signer |
+| [**Outbound**](https://app.hackthebox.com/machines/Outbound) | Roundcube deserialization CVE-2025-49113, 3DES |
+| [**Dump**](https://app.hackthebox.com/machines/Dump) | Parameter injection, sudo parameter injection, apparmor |
+| [**Store**](https://app.hackthebox.com/machines/Store) | XOR encryption, Node inspect, SFTP tunnel |
+| [**Artificial**](https://app.hackthebox.com/machines/Artificial) | TensorFlow deserialization, backrest |
+| [**Watcher**](https://app.hackthebox.com/machines/Watcher) | Zabbix CVE-2024-22120 (SQLi), TeamCity |
+| [**Forgotten**](https://app.hackthebox.com/machines/Forgotten) | LimeSurvey, docker-mysql |
+| [**Planning**](https://app.hackthebox.com/machines/Planning) | Grafana CVE-2024-9264 (SQLi), DuckDB, crontab-ui |
+| [**Environment**](https://app.hackthebox.com/machines/Environment) | Laravel debug CVE-2024-52301, Laravel Filemanager CVE-2024-21546, GPG env |
+| [**Race**](https://app.hackthebox.com/machines/Race) | Grav CMS password reset CVE-2024-28116, Twig SSTI, TOCTOU |
+| [**Eureka**](https://app.hackthebox.com/machines/Eureka) | Spring Boot heapdump, Spring Cloud Gateway, bash arithmetic injection |
+| [**Nocturnal**](https://app.hackthebox.com/machines/Nocturnal) | ISPConfig CVE-2023-46818, ODT content-type |
+| [**Zero**](https://app.hackthebox.com/machines/Zero) | .htaccess file read, Apache log pipe, Perl |
+| [**Build**](https://app.hackthebox.com/machines/Build) | Jenkins credentials decryptor, PowerDNS-Admin, rlogin |
+| [**Code**](https://app.hackthebox.com/machines/Code) | Flask, backy, SQLAlchemy |
+| [**Manage**](https://app.hackthebox.com/machines/Manage) | Java RMI, JMX, beanshooter, Google Authenticator 2FA |
+| [**Cypher**](https://app.hackthebox.com/machines/Cypher) | Cypher injection, Neo4j, bbot |
+| [**Ten**](https://app.hackthebox.com/machines/Ten) | etcd, remco, Apache piped logs |
+| [**Reset**](https://app.hackthebox.com/machines/Reset) | Berkeley r-commands, log poisoning, tmux, nano |
+| [**Dog**](https://app.hackthebox.com/machines/Dog) | Backdrop CMS |
+| [**Cat**](https://app.hackthebox.com/machines/Cat) | Second-order XSS, SQLite RCE, Gitea CVE-2024-6886 |
+| [**Data**](https://app.hackthebox.com/machines/Data) | Grafana CVE-2021-43798, docker privileged |
+| [**Titanic**](https://app.hackthebox.com/machines/Titanic) | Gitea, ImageMagick CVE-2024-41817, shared object |
+| [**Down**](https://app.hackthebox.com/machines/Down) | SSRF, pwsm decoder |
+| [**Backfire**](https://app.hackthebox.com/machines/Backfire) | Havoc CVE-2024-41570 (SSRF), HardhatC2, JWT default secret |
+| [**Checker**](https://app.hackthebox.com/machines/Checker) | BookStack, Teampass SQLi CVE-2023-1545, SSRF CVE-2023-6199, oathtool |
+| [**Heal**](https://app.hackthebox.com/machines/Heal) | wkhtmltopdf, LimeSurvey, Consul CVE-2023-35583 |
+| [**UnderPass**](https://app.hackthebox.com/machines/UnderPass) | daloRADIUS default creds, mosh |
+| [**BigBang**](https://app.hackthebox.com/machines/BigBang) | WordPress BuddyForms PHAR CVE-2023-26326, PHP filter wrapwrap, CVE-2024-2961, Grafana |
+| [**LinkVortex**](https://app.hackthebox.com/machines/LinkVortex) | Ghost file read CVE-2023-40028, symbolic link, TOCTOU |
+| [**BlockBlock**](https://app.hackthebox.com/machines/BlockBlock) | Arch Linux, blockchain, solidity, Forge, path hijack |
+| [**Alert**](https://app.hackthebox.com/machines/Alert) | Markdown-to-html, XSS phishing |
+| [**Chemistry**](https://app.hackthebox.com/machines/Chemistry) | CIF, pymatgen CVE-2024-23346, aiohttp CVE-2024-23334 |
+| [**Unrested**](https://app.hackthebox.com/machines/Unrested) | Zabbix CVE-2024-42327 (SQLi), CVE-2024-36467 |
+| [**Instant**](https://app.hackthebox.com/machines/Instant) | Android APK, Solar-Putty SQLite, Werkzeug PBKDF2 |
+| [**Yummy**](https://app.hackthebox.com/machines/Yummy) | ICS-Py, JWT RSA, SageMath, Mercurial hooks, MySQL secure-file-priv |
+| [**MagicGardens**](https://app.hackthebox.com/machines/MagicGardens) | Docker registry, Django pickle deserialization, kernel module, CAP_SYS_MODULE |
+| [**Trickster**](https://app.hackthebox.com/machines/Trickster) | PrestaShop CVE-2024-34716, changedetection CVE-2024-32651, PrusaSlicer CVE-2023-47268 |
+| [**Strutted**](https://app.hackthebox.com/machines/Strutted) | Struts CVE-2024-53677, su fail |
+| [**Caption**](https://app.hackthebox.com/machines/Caption) | Varnish cache, GitBucket, Thrift, HAProxy request smuggling |
+| [**MonitorsThree**](https://app.hackthebox.com/machines/MonitorsThree) | Cacti SQLi, CVE-2024-25642, duplicati, client-side hashing |
+| [**Sightless**](https://app.hackthebox.com/machines/Sightless) | SQLPad SSTI CVE-2022-0944, froxlor XSS CVE-2024-34070, Keepass |
+| [**Sea**](https://app.hackthebox.com/machines/Sea) | WonderCMS CVE-2023-41425 |
+| [**GreenHorn**](https://app.hackthebox.com/machines/GreenHorn) | Pluck CMS, depixalate PDF |
+| [**Lantern**](https://app.hackthebox.com/machines/Lantern) | Blazor, skipper proxy CVE-2022-38580, dotPeek |
+| [**Resource**](https://app.hackthebox.com/machines/Resource) | SSH certificate, PHAR |
+| [**PermX**](https://app.hackthebox.com/machines/PermX) | Chamilo CVE-2023-31803, facl, setfacl |
+| [**Editorial**](https://app.hackthebox.com/machines/Editorial) | GitPython CVE-2022-24439 |
+| [**Blurry**](https://app.hackthebox.com/machines/Blurry) | ClearML, PyTorch, Fickle |
+| [**EvilCUPS**](https://app.hackthebox.com/machines/EvilCUPS) | CUPS CVE-2024-47176/CVE-2024-47076/CVE-2024-47175/CVE-2024-47177 |
+| [**BoardLight**](https://app.hackthebox.com/machines/BoardLight) | Dolibarr CVE-2023-30253, Enlightenment CVE-2022-37706 |
+| [**Intuition**](https://app.hackthebox.com/machines/Intuition) | Flask-unsign, Selenium Grid, Suricata, Ansible Galaxy, Docker escape raw disk |
+| [**Skyfall**](https://app.hackthebox.com/machines/Skyfall) | MinIO CVE-2023-28432/CVE-2023-28434, HashiCorp Vault, fuse, sshfs |
+| [**Runner**](https://app.hackthebox.com/machines/Runner) | TeamCity CVE-2023-42793, Portainer, runc CVE-2024-21626 |
+| [**FormulaX**](https://app.hackthebox.com/machines/FormulaX) | Simple-Git CVEs, LibreOffice Apache UNO, formula injection |
+| [**Usage**](https://app.hackthebox.com/machines/Usage) | Laravel SQLi, Monit, wildcard 7z |
+| [**IClean**](https://app.hackthebox.com/machines/IClean) | qpdf, PDF parser |
+| [**WifineticTwo**](https://app.hackthebox.com/machines/WifineticTwo) | OpenPLC CVE-2021-31630, oneshot WPS pixie dust |
+| [**Headless**](https://app.hackthebox.com/machines/Headless) | XSS to command injection |
+| [**Corporate**](https://app.hackthebox.com/machines/Corporate) | SSO, CSP eval, OpenVPN, Bitwarden, Proxmox |
+| [**Perfection**](https://app.hackthebox.com/machines/Perfection) | Ruby Sinatra ERB SSTI, newline injection |
+| [**Bizness**](https://app.hackthebox.com/machines/Bizness) | Apache OFBiz CVE-2023-49070, ysoserial, Derby |
+| [**Ouija**](https://app.hackthebox.com/machines/Ouija) | HAProxy request smuggling CVE-2021-40346, hash extension |
+| [**Monitored**](https://app.hackthebox.com/machines/Monitored) | NagiosXI SQLi CVE-2023-40931, symbolic link |
+| [**DevVortex**](https://app.hackthebox.com/machines/DevVortex) | Joomla CVE-2023-23752, Apport CVE-2023-1326 |
+| [**Surveillance**](https://app.hackthebox.com/machines/Surveillance) | CraftCMS CVE-2023-41892, ZoneMinder CVE-2023-26035 |
+| [**Codify**](https://app.hackthebox.com/machines/Codify) | VM2 CVEs, SQLite |
+| [**Analytics**](https://app.hackthebox.com/machines/Analytics) | Metabase CVE-2023-38646, CVE-2023-2640/CVE-2023-32629 |
+| [**CozyHosting**](https://app.hackthebox.com/machines/CozyHosting) | Spring Boot actuator, command injection, bash IFS |
+| [**Drive**](https://app.hackthebox.com/machines/Drive) | Django, SQLite RCE, format string, canary |
+| [**Builder**](https://app.hackthebox.com/machines/Builder) | Jenkins file read CVE-2024-23897, Jenkins credentials |
+| [**Keeper**](https://app.hackthebox.com/machines/Keeper) | Request Tracker, Keepass CVE-2022-32784 |
+| [**RegistryTwo**](https://app.hackthebox.com/machines/RegistryTwo) | Docker registry, Tomcat session, mass assignment |
+| [**Clicker**](https://app.hackthebox.com/machines/Clicker) | Mass assignment, newline injection, Perl debug, ldpreload |
+| [**Bookworm**](https://app.hackthebox.com/machines/Bookworm) | Calibre ebook-convert, PostScript injection, ps2pdf |
+| [**Zipping**](https://app.hackthebox.com/machines/Zipping) | Zip symlink, PHP regex, SQLite RCE |
+| [**Sau**](https://app.hackthebox.com/machines/Sau) | Request Baskets CVE-2023-27163, Maltrail command injection |
+| [**CyberMonday**](https://app.hackthebox.com/machines/CyberMonday) | Laravel deserialization, SSRF Redis, CRLF injection, Docker escape |
+| [**Pilgrimage**](https://app.hackthebox.com/machines/Pilgrimage) | ImageMagick CVE-2022-44268, pngcrush, binwalk CVE-2022-4510 |
+| [**Sandworm**](https://app.hackthebox.com/machines/Sandworm) | PGP, Firejail, httpie, CVE-2022-31214 |
+| [**Download**](https://app.hackthebox.com/machines/Download) | Prisma ORM injection, tty pushback, ioctl TIOCSTI |
+| [**Broker**](https://app.hackthebox.com/machines/Broker) | ActiveMQ CVE-2023-46604, ldpreload |
+| [**Topology**](https://app.hackthebox.com/machines/Topology) | LaTeX pdftex, gnuplot |
+| [**Gofer**](https://app.hackthebox.com/machines/Gofer) | Samba, SSRF via Gopher, LibreOffice macros |
+| [**Jupiter**](https://app.hackthebox.com/machines/Jupiter) | Grafana, PostgreSQL CVE-2019-9193 |
+| [**Intentions**](https://app.hackthebox.com/machines/Intentions) | ImageMagick, second-order SQLi, MSL scheme |
+| [**PC**](https://app.hackthebox.com/machines/PC) | gRPC, grpcurl, pyload CVE-2023-0297 |
+| [**Format**](https://app.hackthebox.com/machines/Format) | PHP file read, Redis proxy-pass |
+| [**Snoopy**](https://app.hackthebox.com/machines/Snoopy) | Mattermost, TSIG DNS, Git CVE-2023-23946, ClamAV CVE-2023-20052 |
+| [**Wifinetic**](https://app.hackthebox.com/machines/Wifinetic) | OpenWRT, reaver, WPS |
+| [**PikaTwoo**](https://app.hackthebox.com/machines/PikaTwoo) | Apache APISIX, OpenStack, Android Flutter, Kubernetes podman, cr8escape |
+| [**MonitorsTwo**](https://app.hackthebox.com/machines/MonitorsTwo) | Cacti CVE-2022-46169, Docker CVE-2021-41091 |
+| [**OnlyForYou**](https://app.hackthebox.com/machines/OnlyForYou) | Python command injection, Neo4j Cypher injection |
+| [**Mailroom**](https://app.hackthebox.com/machines/Mailroom) | NoSQL injection, strace ptrace |
+| [**Busqueda**](https://app.hackthebox.com/machines/Busqueda) | Searchor python eval |
+| [**Agile**](https://app.hackthebox.com/machines/Agile) | Werkzeug debug pin, sudoedit CVE-2023-22809 |
+| [**Derailed**](https://app.hackthebox.com/machines/Derailed) | WebAssembly BOF, Ruby open injection |
+| [**Socket**](https://app.hackthebox.com/machines/Socket) | WebSocket SQLi, PyInstaller |
+| [**Inject**](https://app.hackthebox.com/machines/Inject) | Spring Cloud Function CVE-2022-22963, Ansible |
+| [**Pollution**](https://app.hackthebox.com/machines/Pollution) | Redis, MyBB, PHP-FPM, prototype pollution |
+| [**Stocker**](https://app.hackthebox.com/machines/Stocker) | NoSQL injection, XSS to PDF |
+| [**Soccer**](https://app.hackthebox.com/machines/Soccer) | Tiny file manager, WebSocket SQLi, doas |
+| [**TwoMillion**](https://app.hackthebox.com/machines/TwoMillion) | CVE-2023-0386 |
+| [**Bagel**](https://app.hackthebox.com/machines/Bagel) | JSON .NET deserialization |
+| [**Precious**](https://app.hackthebox.com/machines/Precious) | PDFKit CVE-2022-25765, YAML deserialization |
+| [**Interface**](https://app.hackthebox.com/machines/Interface) | dompdf CVE-2022-28368, bash arithmetic injection |
+| [**MetaTwo**](https://app.hackthebox.com/machines/MetaTwo) | WordPress BookingPress SQLi, XXE CVE-2021-29447 |
+| [**Investigation**](https://app.hackthebox.com/machines/Investigation) | Exiftool CVE-2022-23935, Perl open injection |
+| [**Encoding**](https://app.hackthebox.com/machines/Encoding) | PHP filter injection, Git hooks |
+| [**BroScience**](https://app.hackthebox.com/machines/BroScience) | PHP deserialization |
+| [**Vessel**](https://app.hackthebox.com/machines/Vessel) | MySQLJS escape functions, CVE-2022-24637, CVE-2022-0811 |
+| [**Extension**](https://app.hackthebox.com/machines/Extension) | Laravel, Roundcube, hash extension, Docker escape |
+| [**Mentor**](https://app.hackthebox.com/machines/Mentor) | SNMP, FastAPI |
+| [**Forgot**](https://app.hackthebox.com/machines/Forgot) | Varnish cache, TensorFlow CVE-2022-29216 |
+| [**Awkward**](https://app.hackthebox.com/machines/Awkward) | Webpack, JWT, awk injection |
+| [**RainyDay**](https://app.hackthebox.com/machines/RainyDay) | Flask-unsign, Python use-after-free |
+| [**Photobomb**](https://app.hackthebox.com/machines/Photobomb) | ImageMagick, path hijack |
+| [**Response**](https://app.hackthebox.com/machines/Response) | HMAC oracle, cross-protocol request forgery, SSH partial key |
+| [**Ambassador**](https://app.hackthebox.com/machines/Ambassador) | Grafana CVE-2021-43798, Consul |
+| [**UpDown**](https://app.hackthebox.com/machines/UpDown) | SSRF, PHP proc_open |
+| [**Shoppy**](https://app.hackthebox.com/machines/Shoppy) | NoSQL injection, Mattermost |
+| [**Health**](https://app.hackthebox.com/machines/Health) | Laravel, Gogs SSRF |
+| [**CarpeDiem**](https://app.hackthebox.com/machines/CarpeDiem) | Trudesk, Docker escape CVE-2022-0492 |
+| [**RedPanda**](https://app.hackthebox.com/machines/RedPanda) | Spring Boot Thymeleaf SSTI |
+| [**Squashed**](https://app.hackthebox.com/machines/Squashed) | NFS, X11, xauth |
+| [**Shared**](https://app.hackthebox.com/machines/Shared) | SQLi, IPython, Redis CVE-2022-0543 |
+| [**Moderators**](https://app.hackthebox.com/machines/Moderators) | WordPress plugin, VirtualBox encryption |
+| [**Trick**](https://app.hackthebox.com/machines/Trick) | Employee Management System SQLi, fail2ban |
+| [**Faculty**](https://app.hackthebox.com/machines/Faculty) | mpdf, GDB ptrace |
+| [**OpenSource**](https://app.hackthebox.com/machines/OpenSource) | Flask debug pin |
+| [**Seventeen**](https://app.hackthebox.com/machines/Seventeen) | Exam Management System SQLi, Roundcube CVE-2020-12640 |
+| [**Scanned**](https://app.hackthebox.com/machines/Scanned) | chroot jail, ptrace, makefile |
+| [**Noter**](https://app.hackthebox.com/machines/Noter) | md-to-pdf command injection |
+| [**Talkative**](https://app.hackthebox.com/machines/Talkative) | Bolt CMS, Rocket.Chat, Twig SSTI, Docker shocker |
+| [**Retired**](https://app.hackthebox.com/machines/Retired) | BOF, mprotect, capabilities |
+| [**Overgraph**](https://app.hackthebox.com/machines/Overgraph) | GraphQL, AngularJS, ffmpeg SSRF |
+| [**Late**](https://app.hackthebox.com/machines/Late) | OCR, Tesseract, Jinja2 SSTI |
+| [**Catch**](https://app.hackthebox.com/machines/Catch) | Cachet, Laravel deserialization |
+| [**RouterSpace**](https://app.hackthebox.com/machines/RouterSpace) | Android APK, React Native, polkit CVEs |
+| [**Undetected**](https://app.hackthebox.com/machines/Undetected) | PHPUnit CVE-2017-9841 |
+| [**Phoenix**](https://app.hackthebox.com/machines/Phoenix) | WordPress plugins SQLi, TOTP |
+| [**Paper**](https://app.hackthebox.com/machines/Paper) | Rocket.Chat, CVE-2019-17671 |
+| [**Meta**](https://app.hackthebox.com/machines/Meta) | Exiftool CVE-2021-22204, mogrify |
+| [**Timing**](https://app.hackthebox.com/machines/Timing) | LFI, side-channel timing |
+| [**AdmirerToo**](https://app.hackthebox.com/machines/AdmirerToo) | Adminer CVE-2021-21311, OpenTSDB |
+| [**Jail**](https://app.hackthebox.com/machines/Jail) | BOF, NFS no_squash, rvim |
+| [**Pandora**](https://app.hackthebox.com/machines/Pandora) | Pandora FMS SQLi CVE-2021-32099, CVE-2020-13851 |
+| [**Mirai**](https://app.hackthebox.com/machines/Mirai) | Raspberry Pi, Pi-hole |
+| [**Brainfuck**](https://app.hackthebox.com/machines/Brainfuck) | WordPress Support Plus, LXC/LXD |
+| [**Fingerprint**](https://app.hackthebox.com/machines/Fingerprint) | GlassFish, HQL injection, JWT, AES ECB padding |
+| [**Fulcrum**](https://app.hackthebox.com/machines/Fulcrum) | XXE, QEMU |
+| [**Unicode**](https://app.hackthebox.com/machines/Unicode) | JWT RS256, Unicode normalization |
+| [**Antique**](https://app.hackthebox.com/machines/Antique) | Jetdirect, CUPS CVE-2012-5519 |
+| [**BackendTwo**](https://app.hackthebox.com/machines/BackendTwo) | FastAPI, JWT |
+| [**Backdoor**](https://app.hackthebox.com/machines/Backdoor) | WordPress, gdbserver |
+| [**Ariekei**](https://app.hackthebox.com/machines/Ariekei) | Shellshock, ImageTragick |
+| [**Toby**](https://app.hackthebox.com/machines/Toby) | WordPress backdoor, Gogs |
+| [**Backend**](https://app.hackthebox.com/machines/Backend) | FastAPI, JWT |
+| [**Overflow**](https://app.hackthebox.com/machines/Overflow) | Padding oracle, SQLi, Exiftool CVE-2021-22204 |
+| [**Inception**](https://app.hackthebox.com/machines/Inception) | dompdf, LXD |
+| [**Shibboleth**](https://app.hackthebox.com/machines/Shibboleth) | Zabbix, IPMI |
+| [**Altered**](https://app.hackthebox.com/machines/Altered) | Laravel type juggling, DirtyPipe CVE-2022-0847 |
+| [**Secret**](https://app.hackthebox.com/machines/Secret) | JWT, core dump |
+| [**Stacked**](https://app.hackthebox.com/machines/Stacked) | LocalStack, AWS Lambda CVE-2021-32090 |
+| [**Ransom**](https://app.hackthebox.com/machines/Ransom) | Type juggling, zip known-plaintext |
+| [**Devzat**](https://app.hackthebox.com/machines/Devzat) | InfluxDB CVE-2019-20933 |
+| [**Epsilon**](https://app.hackthebox.com/machines/Epsilon) | AWS Lambda, JWT SSTI |
+| [**GoodGames**](https://app.hackthebox.com/machines/GoodGames) | SQLi, Docker escape |
+| [**Bolt**](https://app.hackthebox.com/machines/Bolt) | Roundcube, Bolt CMS SSTI |
+| [**SteamCloud**](https://app.hackthebox.com/machines/SteamCloud) | Kubernetes |
+| [**EarlyAccess**](https://app.hackthebox.com/machines/EarlyAccess) | Laravel, second-order SQLi |
+| [**Flustered**](https://app.hackthebox.com/machines/Flustered) | GlusterFS, SSTI |
+| [**Horizontall**](https://app.hackthebox.com/machines/Horizontall) | Strapi CVE-2019-18818/CVE-2019-19609, Laravel deserialization |
+| [**Pressed**](https://app.hackthebox.com/machines/Pressed) | WordPress XML-RPC, pkexec |
+| [**Forge**](https://app.hackthebox.com/machines/Forge) | SSRF, Python pdb |
+| [**Developer**](https://app.hackthebox.com/machines/Developer) | Django pickle deserialization |
+| [**NodeBlog**](https://app.hackthebox.com/machines/NodeBlog) | Node.js NoSQL injection, node-serialize |
+| [**Previse**](https://app.hackthebox.com/machines/Previse) | Command injection, path hijack |
+| [**LogForge**](https://app.hackthebox.com/machines/LogForge) | Log4Shell, JNDI |
+| [**Static**](https://app.hackthebox.com/machines/Static) | Xdebug, CVE-2019-11043 |
+| [**Writer**](https://app.hackthebox.com/machines/Writer) | SQLi, Flask, Django |
+| [**Pikaboo**](https://app.hackthebox.com/machines/Pikaboo) | Off-by-slash, Perl open injection |
+| [**Union**](https://app.hackthebox.com/machines/Union) | SQLi WAF bypass |
+| [**BountyHunter**](https://app.hackthebox.com/machines/BountyHunter) | XXE, python eval |
+| [**Seal**](https://app.hackthebox.com/machines/Seal) | GitBucket, off-by-slash |
+| [**Nunchucks**](https://app.hackthebox.com/machines/Nunchucks) | Express Nunchucks SSTI |
+| [**Spooktrol**](https://app.hackthebox.com/machines/Spooktrol) | FastAPI |
+| [**Spider**](https://app.hackthebox.com/machines/Spider) | Flask SSTI, blind SSTI |
+| [**Dynstr**](https://app.hackthebox.com/machines/Dynstr) | Dynamic DNS, nsupdate |
+| [**Monitors**](https://app.hackthebox.com/machines/Monitors) | WordPress SQLi, Cacti, Solr CVE-2020-9496 |
+| [**Cap**](https://app.hackthebox.com/machines/Cap) | PCAP, capabilities |
+| [**Jarmis**](https://app.hackthebox.com/machines/Jarmis) | JARM, FastAPI SSRF |
+| [**Pit**](https://app.hackthebox.com/machines/Pit) | Seeddms CVE-2019-12744, SELinux |
+| [**Sink**](https://app.hackthebox.com/machines/Sink) | HAProxy, request smuggling |
+| [**Validation**](https://app.hackthebox.com/machines/Validation) | Second-order SQLi |
+| [**Unobtainium**](https://app.hackthebox.com/machines/Unobtainium) | Kubernetes, prototype pollution |
+| [**Gobox**](https://app.hackthebox.com/machines/Gobox) | Golang SSTI |
+| [**Knife**](https://app.hackthebox.com/machines/Knife) | PHP 8.1.0-dev backdoor |
+| [**TheNotebook**](https://app.hackthebox.com/machines/TheNotebook) | JWT, runc CVE-2019-5736 |
+| [**Armageddon**](https://app.hackthebox.com/machines/Armageddon) | Drupalgeddon2 |
+| [**Ophiuchi**](https://app.hackthebox.com/machines/Ophiuchi) | YAML deserialization, WebAssembly |
+| [**Tentacle**](https://app.hackthebox.com/machines/Tentacle) | Kerberos, OpenSMTPD CVE-2020-7247 |
+| [**Enterprise**](https://app.hackthebox.com/machines/Enterprise) | WordPress, Joomla, BOF ret2libc |
+| [**Tenet**](https://app.hackthebox.com/machines/Tenet) | PHP deserialization, race condition |
+| [**Node**](https://app.hackthebox.com/machines/Node) | Node.js, BOF ret2libc |
+| [**ScriptKiddie**](https://app.hackthebox.com/machines/ScriptKiddie) | msfvenom CVE-2020-7384 |
+| [**Shocker**](https://app.hackthebox.com/machines/Shocker) | Shellshock |
+| [**Delivery**](https://app.hackthebox.com/machines/Delivery) | osTicket, Mattermost |
+| [**Kotarak**](https://app.hackthebox.com/machines/Kotarak) | Tomcat, SSRF, LXC |
+| [**Ready**](https://app.hackthebox.com/machines/Ready) | GitLab SSRF, Redis, Docker cgroups |
+| [**Bucket**](https://app.hackthebox.com/machines/Bucket) | AWS S3, DynamoDB, pd4ml |
+| [**Laboratory**](https://app.hackthebox.com/machines/Laboratory) | GitLab CVE-2020-10977 |
+| [**Time**](https://app.hackthebox.com/machines/Time) | CVE-2019-12384 deserialization |
+| [**CrossFit**](https://app.hackthebox.com/machines/CrossFit) | XSS, CORS, CSRF, Laravel |
+| [**Passage**](https://app.hackthebox.com/machines/Passage) | CuteNews |
+| [**Sneaky**](https://app.hackthebox.com/machines/Sneaky) | SNMP, IPv6 BOF |
+| [**Academy**](https://app.hackthebox.com/machines/Academy) | Laravel CVE-2018-15133 |
+| [**Beep**](https://app.hackthebox.com/machines/Beep) | Elastix, Shellshock |
+| [**Feline**](https://app.hackthebox.com/machines/Feline) | Tomcat CVE-2020-9484, SaltStack |
+| [**Charon**](https://app.hackthebox.com/machines/Charon) | SQLi, RSA |
+| [**Jewel**](https://app.hackthebox.com/machines/Jewel) | GitLab CVE-2020-8164/CVE-2020-8165 |
+| [**Apocalyst**](https://app.hackthebox.com/machines/Apocalyst) | WordPress, steghide |
+| [**Doctor**](https://app.hackthebox.com/machines/Doctor) | Splunk, SSTI |
+| [**Europa**](https://app.hackthebox.com/machines/Europa) | SQLi, preg_replace |
+| [**Compromised**](https://app.hackthebox.com/machines/Compromised) | MySQL UDF, ldpreload backdoor |
+| [**RopeTwo**](https://app.hackthebox.com/machines/RopeTwo) | v8, kernel pwn |
+| [**Laser**](https://app.hackthebox.com/machines/Laser) | Jetdirect, Solr CVE-2019-17558 |
+| [**Unbalanced**](https://app.hackthebox.com/machines/Unbalanced) | Squid, rsync, encfs |
+| [**SneakyMailer**](https://app.hackthebox.com/machines/SneakyMailer) | Phishing, Swaks |
+| [**Intense**](https://app.hackthebox.com/machines/Intense) | SQLi, hash extension |
+| [**Tabby**](https://app.hackthebox.com/machines/Tabby) | Tomcat, LXC/LXD |
+| [**Dyplesher**](https://app.hackthebox.com/machines/Dyplesher) | Memcached, Gogs, Minecraft Bukkit |
+| [**Blunder**](https://app.hackthebox.com/machines/Blunder) | Bludit, CVE-2019-14287 sudo |
+| [**Cache**](https://app.hackthebox.com/machines/Cache) | OpenEMR SQLi |
+| [**Admirer**](https://app.hackthebox.com/machines/Admirer) | Adminer, path hijack |
+| [**Travel**](https://app.hackthebox.com/machines/Travel) | SimplePie SSRF, Gopherus |
+| [**Haircut**](https://app.hackthebox.com/machines/Haircut) | Command injection, screen |
+| [**Quick**](https://app.hackthebox.com/machines/Quick) | HTTP/3, ESI injection |
+| [**Calamity**](https://app.hackthebox.com/machines/Calamity) | PHPbash, LXD, BOF |
+| [**Magic**](https://app.hackthebox.com/machines/Magic) | SQLi, path hijack |
+| [**Traceback**](https://app.hackthebox.com/machines/Traceback) | Lua, luvit |
+| [**Joker**](https://app.hackthebox.com/machines/Joker) | Squid, iptables, checkpoint |
+| [**Fatty**](https://app.hackthebox.com/machines/Fatty) | Java deserialization |
+| [**Oouch**](https://app.hackthebox.com/machines/Oouch) | OAuth, CSRF |
+| [**Lazy**](https://app.hackthebox.com/machines/Lazy) | Padding oracle, bit flip |
+| [**Shrek**](https://app.hackthebox.com/machines/Shrek) | Audacity, ECC |
+| [**Tenten**](https://app.hackthebox.com/machines/Tenten) | WordPress, steghide |
+| [**Book**](https://app.hackthebox.com/machines/Book) | SQL truncation, logrotate |
+| [**Bank**](https://app.hackthebox.com/machines/Bank) | Zone transfer, regex |
+| [**ForwardSlash**](https://app.hackthebox.com/machines/ForwardSlash) | RFI/LFI/XXE |
+| [**Blocky**](https://app.hackthebox.com/machines/Blocky) | Java decompile |
+| [**PlayerTwo**](https://app.hackthebox.com/machines/PlayerTwo) | Twirp, MQTT, heap exploit |
+| [**Popcorn**](https://app.hackthebox.com/machines/Popcorn) | Torrent Hoster, DirtyCow |
+| [**Rope**](https://app.hackthebox.com/machines/Rope) | Format string, BOF |
+| [**Patents**](https://app.hackthebox.com/machines/Patents) | XXE, Docker |
+| [**Obscurity**](https://app.hackthebox.com/machines/Obscurity) | Python command injection |
+| [**OpenAdmin**](https://app.hackthebox.com/machines/OpenAdmin) | OpenNetAdmin |
+| [**SolidState**](https://app.hackthebox.com/machines/SolidState) | James POP3/SMTP |
+| [**Nineveh**](https://app.hackthebox.com/machines/Nineveh) | knockd, chkrootkit |
+| [**Mango**](https://app.hackthebox.com/machines/Mango) | NoSQL injection, jjs |
+| [**Cronos**](https://app.hackthebox.com/machines/Cronos) | Laravel SQLi |
+| [**Traverxec**](https://app.hackthebox.com/machines/Traverxec) | Nostromo |
+| [**Lame**](https://app.hackthebox.com/machines/Lame) | vsftpd, Samba |
+| [**Registry**](https://app.hackthebox.com/machines/Registry) | Bolt CMS, Docker |
+| [**Postman**](https://app.hackthebox.com/machines/Postman) | Redis, Webmin |
+| [**Scavenger**](https://app.hackthebox.com/machines/Scavenger) | Exim CVE-2019-10149 |
+| [**Zetta**](https://app.hackthebox.com/machines/Zetta) | FTP bounce, rsync |
+| [**AI**](https://app.hackthebox.com/machines/AI) | text2speech, flite, JDWP |
+| [**Player**](https://app.hackthebox.com/machines/Player) | Codiad, ffmpeg |
+| [**Bitlab**](https://app.hackthebox.com/machines/Bitlab) | GitLab |
+| [**Craft**](https://app.hackthebox.com/machines/Craft) | Gogs, HashiCorp Vault |
+| [**Smasher2**](https://app.hackthebox.com/machines/Smasher2) | Python refcounting |
+| [**Wall**](https://app.hackthebox.com/machines/Wall) | Centreon CVE-2019-13024 |
+| [**Chainsaw**](https://app.hackthebox.com/machines/Chainsaw) | Solidity, IPFS |
+| [**Networked**](https://app.hackthebox.com/machines/Networked) | PHP upload, ifcfg |
+| [**Jarvis**](https://app.hackthebox.com/machines/Jarvis) | phpMyAdmin CVE-2018-12613 |
+| [**Haystack**](https://app.hackthebox.com/machines/Haystack) | Elasticsearch, Kibana |
+| [**Safe**](https://app.hackthebox.com/machines/Safe) | Keepass, ROP |
+| [**Ellingson**](https://app.hackthebox.com/machines/Ellingson) | Werkzeug debugger, BOF |
+| [**Writeup**](https://app.hackthebox.com/machines/Writeup) | CMSMS SQLi |
+| [**Ghoul**](https://app.hackthebox.com/machines/Ghoul) | Zip slip, Gogs |
+| [**SwagShop**](https://app.hackthebox.com/machines/SwagShop) | Magento |
+| [**Kryptos**](https://app.hackthebox.com/machines/Kryptos) | MySQL, RC4 |
+| [**Holiday**](https://app.hackthebox.com/machines/Holiday) | Node.js, npm |
+| [**OneTwoSeven**](https://app.hackthebox.com/machines/OneTwoSeven) | SFTP chroot |
+| [**Unattended**](https://app.hackthebox.com/machines/Unattended) | Nginx alias LFI |
+| [**LaCasaDePapel**](https://app.hackthebox.com/machines/LaCasaDePapel) | Client certificate auth |
+| [**CTF**](https://app.hackthebox.com/machines/CTF) | LDAP injection |
+| [**FriendZone**](https://app.hackthebox.com/machines/FriendZone) | LFI, python library hijack |
+| [**FluJab**](https://app.hackthebox.com/machines/FluJab) | CVE-2008-0166 Debian SSH |
+| [**Help**](https://app.hackthebox.com/machines/Help) | GraphQL, SQLi |
+| [**Chaos**](https://app.hackthebox.com/machines/Chaos) | Webmin, LaTeX |
+| [**Lightweight**](https://app.hackthebox.com/machines/Lightweight) | Capabilities |
+| [**Irked**](https://app.hackthebox.com/machines/Irked) | Steghide, IRC |
+| [**Teacher**](https://app.hackthebox.com/machines/Teacher) | CVE-2018-1133 |
+| [**RedCross**](https://app.hackthebox.com/machines/RedCross) | PostgreSQL, Haraka |
+| [**Vault**](https://app.hackthebox.com/machines/Vault) | QEMU, Spice |
+| [**Curling**](https://app.hackthebox.com/machines/Curling) | Joomla, Dirty Sock |
+| [**October**](https://app.hackthebox.com/machines/October) | BOF |
+| [**Frolic**](https://app.hackthebox.com/machines/Frolic) | Node-RED, BOF ret2libc |
+| [**Carrier**](https://app.hackthebox.com/machines/Carrier) | BGP hijack |
+| [**Zipper**](https://app.hackthebox.com/machines/Zipper) | Zabbix, path hijack |
+| [**Dab**](https://app.hackthebox.com/machines/Dab) | Memcached |
+| [**Reddish**](https://app.hackthebox.com/machines/Reddish) | Node-RED, Redis |
+| [**Oz**](https://app.hackthebox.com/machines/Oz) | SSTI, Portainer |
+| [**Mischief**](https://app.hackthebox.com/machines/Mischief) | IPv6, SNMP |
+| [**Waldo**](https://app.hackthebox.com/machines/Waldo) | Docker |
+| [**Hawk**](https://app.hackthebox.com/machines/Hawk) | Drupal |
+| [**Smasher**](https://app.hackthebox.com/machines/Smasher) | Timing attack |
+| [**TartarSauce**](https://app.hackthebox.com/machines/TartarSauce) | WordPress, RFI |
+| [**DevOops**](https://app.hackthebox.com/machines/DevOops) | XXE, pickle |
+| [**Olympus**](https://app.hackthebox.com/machines/Olympus) | Xdebug, CVE-2018-15473 |
+| [**Canape**](https://app.hackthebox.com/machines/Canape) | Pickle, CouchDB |
+| [**Stratosphere**](https://app.hackthebox.com/machines/Stratosphere) | Struts |
+| [**Celestial**](https://app.hackthebox.com/machines/Celestial) | Node.js deserialization |
+| [**Valentine**](https://app.hackthebox.com/machines/Valentine) | Heartbleed |
+| [**Aragog**](https://app.hackthebox.com/machines/Aragog) | XXE |
+| [**Nibbles**](https://app.hackthebox.com/machines/Nibbles) | sudo |
+| [**Falafel**](https://app.hackthebox.com/machines/Falafel) | Type juggling |
+| [**CrimeStoppers**](https://app.hackthebox.com/machines/CrimeStoppers) | PHP wrapper LFI |
+| [**FluxCapacitor**](https://app.hackthebox.com/machines/FluxCapacitor) | WAF bypass |
+| [**Bashed**](https://app.hackthebox.com/machines/Bashed) | sudo, cron |
+
+---
+
+## 🪟 Hack The Box - Machines Windows
+
+| Machine | Techniques clés |
+| --- | --- |
+| [**Eighteen**](https://app.hackthebox.com/machines/Eighteen) | Werkzeug, PBKDF2 hash, MSSQL impersonate, RID cycle, password spray, BloodHound, DCSync, CVE-2025-53779 |
+| [**DarkZero**](https://app.hackthebox.com/machines/DarkZero) | MSSQL linked servers, xp_cmdshell, GodPotato, Rubeus, certipy, PetitPotam, NTLM relay, CVE-2025-33073 |
+| [**Bruno**](https://app.hackthebox.com/machines/Bruno) | Kerberoast, AS-REP roast, zip slip, DLL hijack, Kerberos relay, RBCD, S4U2self/S4U2proxy |
+| [**Breach**](https://app.hackthebox.com/machines/Breach) | Kerberoast, NTLM theft, Silver Ticket, xp_cmdshell, GodPotato, BloodHound |
+| [**Signed**](https://app.hackthebox.com/machines/Signed) | Printer bug, NTLM relay, Silver Ticket, MSSQL OpenRowSet, GodPotato, dnstool |
+| [**JobTwo**](https://app.hackthebox.com/machines/JobTwo) | Phishing, macros, Veeam CVE-2023-27532, xfreerdp |
+| [**Job**](https://app.hackthebox.com/machines/Job) | Phishing, LibreOffice macros, webshell, GodPotato |
+| [**Mirage**](https://app.hackthebox.com/machines/Mirage) | Kerberoast, cross-session relay, RemotePotato0, GMSA, ADCS ESC10, DCSync |
+| [**RustyKey**](https://app.hackthebox.com/machines/RustyKey) | Timeroast, AddSelf, RBCD, DCSync, CLSID hijack |
+| [**Voleur**](https://app.hackthebox.com/machines/Voleur) | Targeted Kerberoast, AD Recycle Bin, DPAPI, WSL secrets |
+| [**DarkCorp**](https://app.hackthebox.com/machines/DarkCorp) | Roundcube XSS, SQLi, PostgreSQL RCE, printer bug, shadow credentials, UPN spoofing |
+| [**TombWatcher**](https://app.hackthebox.com/machines/TombWatcher) | WriteSPN, AddSelf, WriteOwner, shadow credentials, ESC15, ESC3 |
+| [**Certificate**](https://app.hackthebox.com/machines/Certificate) | ADCS ESC3, Golden Certificate, PCAP Kerberos analysis |
+| [**Puppy**](https://app.hackthebox.com/machines/Puppy) | GenericWrite, GenericAll, DPAPI, password spray |
+| [**BabyTwo**](https://app.hackthebox.com/machines/BabyTwo) | RID cycle, password spray, WriteDacl, WriteOwner, GPO abuse |
+| [**Fluffy**](https://app.hackthebox.com/machines/Fluffy) | ADCS ESC16, shadow credentials, GenericWrite, CVE-2025-24071 |
+| [**Baby**](https://app.hackthebox.com/machines/Baby) | Password spray, Backup Operators, secretsdump |
+| [**Delegate**](https://app.hackthebox.com/machines/Delegate) | Unconstrained delegation, RBCD, printer bug, DCSync |
+| [**Media**](https://app.hackthebox.com/machines/Media) | NTLMv2 responder, hashcat, webshell, GodPotato |
+| [**Sendai**](https://app.hackthebox.com/machines/Sendai) | GMSA, ADCS ESC4/ESC1, Silver Ticket, GodPotato |
+| [**TheFrizz**](https://app.hackthebox.com/machines/TheFrizz) | File write, GPO abuse, AD Recycle Bin |
+| [**Phantom**](https://app.hackthebox.com/machines/Phantom) | RBCD delegation, DCSync, password spray, Veracrypt |
+| [**University**](https://app.hackthebox.com/machines/University) | SSTI, mitm6, NTLM relay, RBCD, GMSA, Unconstrained delegation |
+| [**Rainbow**](https://app.hackthebox.com/machines/Rainbow) | BOF, SEH overflow, UAC bypass (FodHelper) |
+| [**LustrousTwo**](https://app.hackthebox.com/machines/LustrousTwo) | Kerberos web auth, password spray, responder, getST |
+| [**RetroTwo**](https://app.hackthebox.com/machines/RetroTwo) | Pre-Windows 2000, GenericWrite, Zerologon CVE-2020-1472 |
+| [**Scepter**](https://app.hackthebox.com/machines/Scepter) | ADCS ESC14, DCSync, NFS, PKINIT |
+| [**Redelegate**](https://app.hackthebox.com/machines/Redelegate) | Constrained delegation, password spray, MSSQL |
+| [**VulnEscape**](https://app.hackthebox.com/machines/VulnEscape) | Kiosk escape, UAC bypass |
+| [**VulnCicada**](https://app.hackthebox.com/machines/VulnCicada) | ADCS ESC8, PetitPotam, secretsdump |
+| [**Haze**](https://app.hackthebox.com/machines/Haze) | Splunk CVE-2024-36991, GMSA, shadow credentials, GodPotato |
+| [**Retro**](https://app.hackthebox.com/machines/Retro) | Pre-Windows 2000, ADCS ESC1 |
+| [**Shibuya**](https://app.hackthebox.com/machines/Shibuya) | Cross-session relay, RemotePotato0, ADCS ESC1 |
+| [**Infiltrator**](https://app.hackthebox.com/machines/Infiltrator) | AS-REP roast, GenericAll, shadow credentials, ADCS ESC4, BitLocker |
+| [**EscapeTwo**](https://app.hackthebox.com/machines/EscapeTwo) | ADCS ESC4/ESC1, shadow credentials, password spray |
+| [**Vintage**](https://app.hackthebox.com/machines/Vintage) | Pre-Windows 2000, GMSA, GenericWrite, RBCD, DCSync |
+| [**Administrator**](https://app.hackthebox.com/machines/Administrator) | GenericAll, GenericWrite, Targeted Kerberoast, DCSync |
+| [**Ghost**](https://app.hackthebox.com/machines/Ghost) | ADFS, SAML, Golden SAML, MSSQL linked servers, GodPotato, domain trust |
+| [**Certified**](https://app.hackthebox.com/machines/Certified) | ADCS ESC9, WriteOwner |
+| [**Cicada**](https://app.hackthebox.com/machines/Cicada) | Backup Operators, secretsdump |
+| [**Compiled**](https://app.hackthebox.com/machines/Compiled) | Git hooks CVE-2024-32002, CVE-2024-20656 |
+| [**Axlle**](https://app.hackthebox.com/machines/Axlle) | XLL phishing, DLL, URL file |
+| [**Blazorized**](https://app.hackthebox.com/machines/Blazorized) | Blazor, JWT, WriteSPN, DCSync |
+| [**Mist**](https://app.hackthebox.com/machines/Mist) | ADCS ESC13, GMSA, shadow credentials, PetitPotam |
+| [**Freelancer**](https://app.hackthebox.com/machines/Freelancer) | IDOR, MSSQL impersonate, memory dump, LSA secrets |
+| [**SolarLab**](https://app.hackthebox.com/machines/SolarLab) | Reportlab SSTI CVE-2023-33733, Openfire CVE-2023-32315 |
+| [**Mailing**](https://app.hackthebox.com/machines/Mailing) | LFI, Hmailserver, CVE-2024-21413, LibreOffice CVE-2023-2255, GodPotato |
+| [**Jab**](https://app.hackthebox.com/machines/Jab) | XMPP, Openfire, AS-REP roast, DCOM |
+| [**Office**](https://app.hackthebox.com/machines/Office) | Joomla CVE-2023-23752, LibreOffice CVE-2023-2255, DPAPI, GPO |
+| [**Crafty**](https://app.hackthebox.com/machines/Crafty) | Log4Shell CVE-2021-44228, Minecraft |
+| [**Pov**](https://app.hackthebox.com/machines/Pov) | ViewState deserialization, SeDebugPrivilege |
+| [**Analysis**](https://app.hackthebox.com/machines/Analysis) | LDAP injection, Autologon credentials |
+| [**Napper**](https://app.hackthebox.com/machines/Napper) | LAPS, Elasticsearch, UAC |
+| [**Hospital**](https://app.hackthebox.com/machines/Hospital) | PHP disable_functions bypass, Ghostscript CVE-2023-3664, CVE-2023-2640 |
+| [**Rebound**](https://app.hackthebox.com/machines/Rebound) | Kerberoast, shadow credentials, cross-session relay, GMSA, RBCD |
+| [**Manager**](https://app.hackthebox.com/machines/Manager) | RID cycle, password spray, MSSQL, ADCS ESC7 |
+| [**Appsanity**](https://app.hackthebox.com/machines/Appsanity) | SSRF, JWT, hidden inputs |
+| [**Visual**](https://app.hackthebox.com/machines/Visual) | XAMPP, PHP webshell, GodPotato |
+| [**Coder**](https://app.hackthebox.com/machines/Coder) | ADCS, TeamCity, CVE-2022-26923 |
+| [**Authority**](https://app.hackthebox.com/machines/Authority) | ADCS ESC1, pass-the-cert, Silver Ticket |
+| [**Aero**](https://app.hackthebox.com/machines/Aero) | Themebleed CVE-2023-38146, CVE-2023-28252 |
+| [**Cerberus**](https://app.hackthebox.com/machines/Cerberus) | Icinga, Firejail, ManageEngine CVE-2022-47966 |
+| [**Escape**](https://app.hackthebox.com/machines/Escape) | ADCS ESC1, Silver Ticket, xp_cmdshell |
+| [**Absolute**](https://app.hackthebox.com/machines/Absolute) | AS-REP roast, shadow credentials, KrbRelay, DCSync |
+| [**Flight**](https://app.hackthebox.com/machines/Flight) | Responder, NTLM theft, DCSync |
+| [**Sekhmet**](https://app.hackthebox.com/machines/Sekhmet) | Deserialization, Zip known-plaintext, DPAPI, AppLocker bypass |
+| [**Support**](https://app.hackthebox.com/machines/Support) | MS-DS-MachineAccountQuota |
+| [**Outdated**](https://app.hackthebox.com/machines/Outdated) | CVE-2022-30190 (Folina), WSUS, shadow credentials |
+| [**Hathor**](https://app.hackthebox.com/machines/Hathor) | Defender bypass, AppLocker, certificate signing, DCSync |
+| [**Perspective**](https://app.hackthebox.com/machines/Perspective) | ViewState deserialization, padding oracle, Potato |
+| [**Scrambled**](https://app.hackthebox.com/machines/Scrambled) | Silver Ticket, deserialization |
+| [**StreamIO**](https://app.hackthebox.com/machines/StreamIO) | SQLi, LAPS, BloodHound |
+| [**Timelapse**](https://app.hackthebox.com/machines/Timelapse) | LAPS, PowerShell history |
+| [**Acute**](https://app.hackthebox.com/machines/Acute) | Defender bypass, PowerShell Web Access |
+| [**Return**](https://app.hackthebox.com/machines/Return) | Server Operators, service hijack |
+| [**Search**](https://app.hackthebox.com/machines/Search) | Kerberoast, GMSA, password spray, certificate |
+| [**Jeeves**](https://app.hackthebox.com/machines/Jeeves) | Jenkins, Keepass, pass-the-hash, ADS |
+| [**Tally**](https://app.hackthebox.com/machines/Tally) | Sharepoint, MSSQL, RottenPotato |
+| [**Driver**](https://app.hackthebox.com/machines/Driver) | SCF, responder, PrintNightmare |
+| [**Intelligence**](https://app.hackthebox.com/machines/Intelligence) | GMSA, Silver Ticket, password spray |
+| [**Love**](https://app.hackthebox.com/machines/Love) | SSRF, AlwaysInstallElevated |
+| [**Breadcrumbs**](https://app.hackthebox.com/machines/Breadcrumbs) | JWT, cookie, password reuse, SQLite |
+| [**Atom**](https://app.hackthebox.com/machines/Atom) | Redis, Portable Kanban, PrintNightmare |
+| [**Cereal**](https://app.hackthebox.com/machines/Cereal) | Deserialization, GraphQL, SSRF, Potato |
+| [**Sharp**](https://app.hackthebox.com/machines/Sharp) | .NET Remoting, ysoserial.net |
+| [**APT**](https://app.hackthebox.com/machines/APT) | NTLMv1, RoguePotato, Pass-the-Hash |
+| [**Reel2**](https://app.hackthebox.com/machines/Reel2) | OWA, phishing, JEA escape |
+| [**Worker**](https://app.hackthebox.com/machines/Worker) | Azure DevOps, pipeline, RoguePotato |
+| [**Omni**](https://app.hackthebox.com/machines/Omni) | Windows IoT Core, SirepRAT |
+| [**Buff**](https://app.hackthebox.com/machines/Buff) | CloudMe, defender |
+| [**Fuse**](https://app.hackthebox.com/machines/Fuse) | PaperCut, capcom.sys driver |
+| [**Blackfield**](https://app.hackthebox.com/machines/Blackfield) | AS-REP roast, Backup Operators, EFS, secretsdump |
+| [**Multimaster**](https://app.hackthebox.com/machines/Multimaster) | SQLi, Zerologon, Server Operators |
+| [**Remote**](https://app.hackthebox.com/machines/Remote) | NFS, Umbraco, TeamViewer |
+| [**Cascade**](https://app.hackthebox.com/machines/Cascade) | AD Recycle Bin, VNC password |
+| [**Sauna**](https://app.hackthebox.com/machines/Sauna) | AS-REP roast, DCSync |
+| [**ServMon**](https://app.hackthebox.com/machines/ServMon) | LFI, NSClient++ |
+| [**Monteverde**](https://app.hackthebox.com/machines/Monteverde) | Azure AD Connect, password spray |
+| [**Nest**](https://app.hackthebox.com/machines/Nest) | Crypto, VB, ADS |
+| [**Resolute**](https://app.hackthebox.com/machines/Resolute) | Password spray, PSTranscript |
+| [**Control**](https://app.hackthebox.com/machines/Control) | SQLi file write, Windows service |
+| [**Sniper**](https://app.hackthebox.com/machines/Sniper) | LFI/RFI, log poisoning, CHM |
+| [**Forest**](https://app.hackthebox.com/machines/Forest) | AS-REP roast, DCSync, ACL |
+| [**Bankrobber**](https://app.hackthebox.com/machines/Bankrobber) | XSS, CSRF, SQLi, BOF |
+| [**Json**](https://app.hackthebox.com/machines/Json) | Deserialization, OAuth, FileZilla |
+| [**RE**](https://app.hackthebox.com/machines/RE) | LibreOffice macros, zip slip, XXE, service hijack |
+| [**Heist**](https://app.hackthebox.com/machines/Heist) | Cisco type-7, RID cycle |
+| [**Bastion**](https://app.hackthebox.com/machines/Bastion) | VHD mount, mRemoteNG |
+| [**Helpline**](https://app.hackthebox.com/machines/Helpline) | XXE, ManageEngine |
+| [**Arkham**](https://app.hackthebox.com/machines/Arkham) | JSF deserialization, Luks, UAC |
+| [**Hackback**](https://app.hackthebox.com/machines/Hackback) | Log poisoning, service write, diaghub |
+| [**Netmon**](https://app.hackthebox.com/machines/Netmon) | PRTG command injection |
+| [**Querier**](https://app.hackthebox.com/machines/Querier) | GPP, xp_cmdshell |
+| [**Sizzle**](https://app.hackthebox.com/machines/Sizzle) | SCF, ADCS, JEA bypass |
+| [**Conceal**](https://app.hackthebox.com/machines/Conceal) | IKE VPN, nishang |
+| [**Access**](https://app.hackthebox.com/machines/Access) | MDB, DPAPI |
+| [**legacy**](https://app.hackthebox.com/machines/legacy) | MS08-067 |
+| [**Active**](https://app.hackthebox.com/machines/Active) | GPP, Kerberoast |
+| [**Jerry**](https://app.hackthebox.com/machines/Jerry) | Tomcat WAR |
+| [**Reel**](https://app.hackthebox.com/machines/Reel) | CVE-2017-0199, phishing |
+| [**Dropzone**](https://app.hackthebox.com/machines/Dropzone) | TFTP, MOF, Stuxnet |
+| [**Bounty**](https://app.hackthebox.com/machines/Bounty) | ASP, LonelyPotato |
+| [**Silo**](https://app.hackthebox.com/machines/Silo) | Oracle ODAT |
+| [**Bart**](https://app.hackthebox.com/machines/Bart) | Log poisoning, winlogon |
+| [**Chatterbox**](https://app.hackthebox.com/machines/Chatterbox) | exploits (MS15-051) + Pivoting using Plink |
+
+---
+
+## 📊 Techniques récurrentes HTB (top 10)
+
+| Technique | Occurrences |
+| --- | --- |
+| **BloodHound** | ~60 machines |
+| **netexec/crackmapexec** | ~50 machines |
+| **Secretsdump / DCSync** | ~40 machines |
+| **Responder / NTLM relay** | ~35 machines |
+| **Kerberoast** | ~30 machines |
+| **MSSQL (xp_cmdshell)** | ~25 machines |
+| **Evil-WinRM** | ~25 machines |
+| **Certipy / ADCS** | ~20 machines |
+| **Chisel tunneling** | ~15 machines |
+| **GodPotato / RoguePotato** | ~15 machines |
+
+---
+
+## 🔧 Outils les plus utilisés sur HTB
+
+- **nmap** - scan (100% des machines)
+- **netexec/crackmapexec** - énumération SMB/LDAP/WinRM
+- **BloodHound** - cartographie AD
+- **responder** - capture NTLMv2
+- **impacket (secretsdump, psexec, wmiexec)** - post-exploitation
+- **evil-winrm** - shell PowerShell
+- **certipy** - ADCS attacks
+- **hashcat** - cassage de hashs
+- **chisel** - tunneling
+- **mssqlclient** - attaques MSSQL
+
+---
+
 ## 📊 Statistiques GitHub
 
 ![Stats](https://streak-stats.demolab.com?user=sam69100&theme=radical&hide_border=true)
